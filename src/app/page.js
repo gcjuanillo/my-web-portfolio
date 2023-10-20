@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="snap-y scroll-smooth top-0 snap-mandatory overflow-auto h-screen w-screen">
       {/* Landing Page */}
+      <NavBar />
       <div className="snap-center h-screen w-screen">
-        <NavBar />
         <LandingPage />
       </div>
       {/* Experience Page */}
