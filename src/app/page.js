@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import NavBar from './components/Navbar';
 import LandingPage from './components/LandingPage';
+import Experiences from './components/Experiences';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </div>
       {/* Experience Page */}
       <div className="snap-center h-screen w-screen flex items-center justify-center">
-        <p className='text-5xl'>Two</p>
+        <Experiences />
       </div>
       {/* About */}
       <div className="snap-center h-screen w-screen flex items-center justify-center">
